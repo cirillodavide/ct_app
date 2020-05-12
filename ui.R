@@ -118,11 +118,14 @@ ui <- fluidPage(
 						HTML("<br/>"),
 						h4("The research team that contributed to the work includes:"),
 						HTML("<br/>"),
-    					h4(HTML('&emsp;'),"Enrico Santus (Massachusetts Institute of Technology)"),
+    					h4(HTML('&emsp;'),"Enrico Santus (Bayer pharmaceuticals)"),
     					h4(HTML('&emsp;'),"Davide Cirillo (Barcelona Supercomputing Center)"),
     					h4(HTML('&emsp;'),"Miguel Ponce de León (Barcelona Supercomputing Center)"),
     					h4(HTML('&emsp;'),"Alfonso Valencia (Barcelona Supercomputing Center)"),
-    					h4(HTML('&emsp;'),"Antonella Santuccione Chada (Women's Brain Project)"),sep=""))
+    					h4(HTML('&emsp;'),"Nicola Marino (Women's Brain Project)"),
+    					h4(HTML('&emsp;'),"Maria Teresa Ferretti (Women's Brain Project)"),
+    					h4(HTML('&emsp;'),"Antonella Santuccione Chada (Women's Brain Project)"),
+    					h4(HTML('&emsp;'),"Nikolaos Mavridis (Massachussets Institute of Technology)"),sep=""))
 					)
 				)
 			)
