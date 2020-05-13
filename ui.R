@@ -114,7 +114,7 @@ ui <- fluidPage(
 				tabPanel("About", 
 					HTML(paste(
 						HTML("<br/>"),
-						h4("The model was developed by Alberto Ferrari (Fondazione per la Ricerca Ospedale Maggiore di Bergamo)."),
+						h4("The model was developed by Alberto Ferrari (Research Foundation, Papa Giovanni XXIII Hospital, Bergamo, Italy)."),
 						HTML("<br/>"),
 						h4("The research team that contributed to the work includes:"),
 						HTML("<br/>"),
@@ -122,10 +122,10 @@ ui <- fluidPage(
     					h4(HTML('&emsp;'),"Davide Cirillo (Barcelona Supercomputing Center)"),
     					h4(HTML('&emsp;'),"Miguel Ponce de León (Barcelona Supercomputing Center)"),
     					h4(HTML('&emsp;'),"Alfonso Valencia (Barcelona Supercomputing Center)"),
-    					h4(HTML('&emsp;'),"Nicola Marino (Women's Brain Project)"),
+    					h4(HTML('&emsp;'),"Nicola Marino (Universitá di Foggia, Italy)"),
     					h4(HTML('&emsp;'),"Maria Teresa Ferretti (Women's Brain Project)"),
     					h4(HTML('&emsp;'),"Antonella Santuccione Chada (Women's Brain Project)"),
-    					h4(HTML('&emsp;'),"Nikolaos Mavridis (Massachussets Institute of Technology)"),sep=""))
+    					h4(HTML('&emsp;'),"Nikolaos Mavridis (Interactive Robots and Media Laboratory, IRLM)"),sep=""))
 					)
 				)
 			)

@@ -5,6 +5,6 @@ account: davidecirillo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2246455
-bundleId: 3128523
+bundleId: 3143606
 url: https://davidecirillo.shinyapps.io/ct_app/
-when: 1589136963.31594
+when: 1589397969.74347
