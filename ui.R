@@ -70,7 +70,7 @@ ui <- fluidPage(
 						h4(HTML("As described in the <i>Model</i> tab panel, our model takes into account many other parameters whose values 
 							are based on evidence in the literature. Nevertheless, it is important to stress that the current knowledge about SARS-CoV-2
 							infection and transmission is still characterized by many uncertainties. For this reason, we reckon that
-							a user-friendly platform with relevant control options is ideal to convery the main objectives of our study.")),
+							a user-friendly platform with relevant control options is ideal to convery the main insights of our study.")),
 						HTML("<br/>"),
 						sep=''))
 					),
