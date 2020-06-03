@@ -18,7 +18,7 @@ server <- function(input, output, session) {
     if(input$contact_rate != 'NA'){
       shinyjs::disable("velocity")
     }else{
-      updateRadioButtons(session, "velocity", label = "Velocity (km/day) (source: Spanish mobility):", 
+      updateRadioButtons(session, "velocity", label = "Mobility (km/day) (source: Spanish mobility):", 
                                 choices = c(1.5, 2.5, 5.2), selected = 1.5, inline=T)
     }
   })
