@@ -22,8 +22,8 @@ ui <- fluidPage(
 			radioButtons("density", label = "Population density (ppl/km²):", 
                                 choices = c(1, 5, 20, 'variable (source: Italian demography)'='NA'), selected = 'NA', inline=T),
 			radioButtons("contact_rate", label = "Contact rate (*):", 
-                                choices = c(7.5, 10, 14.8,'specify velocity'='NA'), selected = 'NA', inline=T),
-			radioButtons("velocity", label = "Velocity (km/day) (source: Spanish mobility):",
+                                choices = c(7.5, 10, 14.8,'specify mobility'='NA'), selected = 'NA', inline=T),
+			radioButtons("velocity", label = "Mobility (km/day) (source: Spanish mobility):",
                                 choices = c(1.5, 2.5, 5.2), selected = 1.5, inline=T),
 			out = h5(HTML("(*) C.J. Rhodes & R.M. Anderson. <i>Mathematical Biosciences</i> 216.1 (2008), pp. 56-62. DOI: 10.1016/j.mbs.2008.08"))
 
@@ -62,8 +62,8 @@ ui <- fluidPage(
 							<li><h4><b>Contact rate:</b>
 								calculated based on <a href='https://www.sciencedirect.com/science/article/abs/pii/S0025556408001260?via%3Dihub'>
 								Rhodes & Anderson (2008)</a>, it can be pre-defined (7.5, 10, or 14.8, reflecting few, medium and many contacts) or 
-								depending on a specific velocity (<i>specifiy velocity</i>).</h4></li>
-							<li><h4><b>Velocity:</b>
+								depending on a specified mobility (or velocity) (<i>specifiy mobility</i>).</h4></li>
+							<li><h4><b>Mobility:</b>
 								it can be increased or reduced in a range (1.5, 2.5 or 5.2 km/day) based on estimations of the mobility
 								in Spain before and after the lockdown (14/03/2020).</h4></li>
 							</ul>"),
